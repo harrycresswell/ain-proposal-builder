@@ -1,0 +1,85 @@
+{{ partial "header.html" . }}
+
+    <div class="container">
+
+		<nav class="menu" role="navigation">
+				<div class="menuTop">
+
+				</div>
+          <ul class="menuList">
+            <li class="menuList__item active"><a class="menuList-link" href="#">Company Information</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Pitch and Deal</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Team Members</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Documents</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Images and Videos</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Packages</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Payments</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Boosters</a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#">Publish</a></li>
+          </ul>
+		</nav><!-- /menu -->
+
+		<div class="main">
+
+				<header class="header" id="header">
+					<div class="headerTop">
+              <div class="u-float--l">
+                  <a href="">Toggle nav</a>
+              </div>
+              <div class="u-float--r u-paddingRight--m u-paddingTop--s u-paddingBottom--s">
+
+                  <div class="u-float--l u-marginRight--s">
+                      <button href="#" class="Button Button--secondary Button--m">Preview Proposal</button>
+                      <button class="Icon Icon--m Button Button--secondary Button--icon"><i class="material-icons md-18">remove_red_eye</i></button>
+                  </div>
+                  <div class="u-float--r">
+                      <button href="#" class="Button Button--primary Button--m">Publish</button>
+                  </div>
+              </div>
+          </div>
+					<div class="headerMiddle u-paddingLeft--m u-paddingRight--m">
+              <div class="u-paddingTop--s u-paddingBottom--s u-float--l">Company Information</div>
+              <div class="u-paddingTop--s u-paddingBottom--s u-float--r">
+                  <a class="" href="#">Back to dashboard</a>
+              </div>
+          </div>
+					<div class="headerBottom"></div>
+				</header><!-- /header -->
+
+
+
+				<div class="form u-cf">
+						<section class="content u-padding-m" id="content" role="main">
+
+                <div>
+                    <div class="u-float--l">
+                      <label for="textInput">Short Summary</label>
+                    </div>
+                    <div class="u-float--r">
+                      <time>75 Remaining</time>
+                    </div>
+                    <input type="text" placeholder="Short Summary" id="textInput">
+                </div>
+
+                <div class="u-marginTop-s">
+                    <div class="u-float--l">
+                        <label for="textArea">Description</label>
+                    </div>
+                    <div class="u-float--r">
+                      <time>75 Remaining</time>
+                    </div>
+                    <texarea placeholder="Start typing...">
+
+                    </texarea>
+                </div>
+
+
+
+						</section><!-- /content -->
+						<section class="sidebar u-padding-m" id="sidebar" role="complementary">sidebar</section><!-- /sidebar -->
+				</div>
+
+		</div><!-- /main -->
+</div><!-- /container -->
+
+{{ partial "footer.html" . }}

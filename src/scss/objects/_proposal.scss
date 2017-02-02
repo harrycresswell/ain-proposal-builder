@@ -1,0 +1,125 @@
+/* Layout */
+
+.container {
+	height: 100vh;
+}
+
+.main {
+	height: 100vh;
+	background: #ccc;
+	width: 82%;
+	float: left;
+}
+
+/* Off Canvas Menu left */
+
+.menu {
+	color: $color--gray-light;
+	background: $color--darker;
+	float: left;
+	height: 100vh;
+	width: 18%;
+}
+
+.menuTop {
+	height: 120px;
+}
+
+ul.menuList {
+  font-size: $font-size--xs;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuList__item {
+  padding: 14px 0;
+  border-left: solid 4px $color--darker-still;
+
+  &:hover, &:active, .active {
+    background: $color--darker-still;
+    border-left: solid 4px $color--brand-blue;
+  }
+}
+
+.menuList-link {
+  color: $color--white;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+a .menuList-link:active, a.menuList-link:hover {
+  color: $color--white;
+}
+
+
+/* Proposal Form Header */
+
+.header {
+	background: $color--white;
+}
+
+.headerTop {
+	height: 60px;
+}
+
+.headerMiddle {
+	background: $color--darker;
+	color: $color--white;
+  font-size: $font-size--xs;
+  height: 44px;
+}
+
+.headerBottom {
+	height: 8px;
+	background: $color--success;
+}
+
+
+/* Proposal Form main content area */
+
+.form {
+	clear: both;
+}
+
+.content {
+	background: $color--white;
+	float: left;
+	width: 60%;
+  height: 85vh; //fix this little hack
+}
+
+.sidebar {
+	background: #F6F9FB;
+	float: left;
+	width: 40%;
+  height: 85vh; //fix this little hack
+}
+
+@media all and (max-width: 1000px) {
+	.content {
+		width: 100%;
+	}
+
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Responsive Buttons: these need to be made specific to the proposal form building */
+
+.Icon {
+  display: none;
+}
+
+@media all and (max-width: 600px) {
+
+  .Button--secondary {
+    display: none;
+  }
+
+  .Icon {
+    display: block;
+  }
+
+}

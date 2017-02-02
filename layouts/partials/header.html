@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ .Description }}">
+    <!-- load the UI Kit -->
+    <link rel="stylesheet" href="http://ui.uxstreet.net/assets/toolkit/styles/toolkit.css">
+
+    <!-- load proposal builder specific stylesheet -->
+    <link rel="stylesheet" href="/css/{{ index .Site.Data.css.hash "main.css" }}" />
+
+    <!-- load google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
