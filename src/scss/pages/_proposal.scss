@@ -22,7 +22,7 @@ ul.menuList {
   padding: 14px 0;
   border-left: solid 4px $color--darker-still;
 
-  &:hover, &:active, .active {
+  &:hover, &:active, &.active {
     background: $color--darker-still;
     border-left: solid 4px $color--brand-blue;
   }
