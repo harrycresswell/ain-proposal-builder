@@ -145,6 +145,7 @@ a .menuList-link:active, a.menuList-link:hover {
   /* This is !important to include */
   width: 180px;
   height: 100%;
+	overflow: auto;
   position: fixed;
   top: 0;
   bottom: 0;
