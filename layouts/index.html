@@ -2,29 +2,12 @@
 
     <div class="container">
 
-		<nav class="offcanvas menu" role="navigation">
-				<div class="menuTop">
-
-				</div>
-          <ul class="menuList">
-            <li class="menuList__item active"><a class="menuList-link" href="#">Company Information</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Pitch and Deal</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Team Members</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Documents</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Images and Videos</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Packages</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Payments</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Boosters</a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#">Publish</a></li>
-          </ul>
-		</nav><!-- /menu -->
-
 		<div class="pagewrap">
 
 				<header class="header" id="header">
 					<div class="headerTop">
               <div class="u-float--l">
-                  <button class="offcanvas-toggle u-paddingLeft--m u-paddingTop--m u-paddingBottom--m"><i class="material-icons">menu</i></button>
+                  <button class="offcanvas-toggle u-paddingLeft--m u-paddingTop--m u-paddingBottom--s"><i class="material-icons">menu</i></button>
               </div>
               <div class="u-float--r u-paddingRight--m u-paddingTop--s u-paddingBottom--s">
 
@@ -37,14 +20,14 @@
                   </div>
               </div>
           </div>
-					<div class="headerMiddle u-paddingLeft--m u-paddingRight--m">
+					<div class="headerMiddle u-paddingLeft--m u-paddingRight--m u-cf">
               <div class="u-paddingTop--s u-paddingBottom--s u-float--l">Company Information</div>
               <div class="u-paddingTop--s u-paddingBottom--s u-float--r">
                   <a class="" href="#">Back to dashboard</a>
               </div>
           </div>
 					<div class="headerBottom"></div>
-				</header><!-- /header -->
+				</header><!-- /.header -->
 
 
 
@@ -56,7 +39,7 @@
                       <label for="textInput">Short Summary</label>
                     </div>
                     <div class="u-float--r">
-                      <time>75 Remaining</time>
+                      <time class="u-font-size--xxs">75 Remaining</time>
                     </div>
                     <input type="text" placeholder="Short Summary" id="textInput">
                 </div>
@@ -66,20 +49,41 @@
                         <label for="textArea">Description</label>
                     </div>
                     <div class="u-float--r">
-                      <time>75 Remaining</time>
+                      <time class="u-font-size--xxs">75 Remaining</time>
                     </div>
                     <texarea placeholder="Start typing...">
 
                     </texarea>
                 </div>
 
+						</section><!-- /.content -->
 
+						<section class="sidebar u-padding-m" id="sidebar" role="complementary">
+              sidebar
+            </section><!-- /.sidebar -->
 
-						</section><!-- /content -->
-						<section class="sidebar u-padding-m" id="sidebar" role="complementary">sidebar</section><!-- /sidebar -->
+        </div>
+
+		</div><!-- /.pagewrap -->
+
+    <nav class="offcanvas menu" role="navigation">
+				<div class="menuTop">
+
 				</div>
+          <ul class="menuList">
+            <li class="menuList__item active"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">build</i><span class="menuList-text">Company Information</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">share</i><span class="menuList-text">Pitch and Deal</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">build</i><span class="menuList-text">Team Members</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">description</i><span class="menuList-text">Documents</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">collections</i><span class="menuList-text">Images and Videos</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">content_copy</i><span class="menuList-text">Packages</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">payment</i><span class="menuList-text">Payments</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">trending_up</i><span class="menuList-text">Boosters</span></a></li>
+            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">publish</i><span class="menuList-text">Publish</span></a></li>
+          </ul>
+		</nav><!-- /.offcanvas menu -->
 
-		</div><!-- /pagewrap -->
-</div><!-- /container -->
+
+</div><!-- /.container -->
 
 {{ partial "footer.html" . }}
