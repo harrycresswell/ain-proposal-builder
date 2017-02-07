@@ -2,7 +2,7 @@
 
     <div class="container">
 
-		<nav class="menu" role="navigation">
+		<nav class="offcanvas menu" role="navigation">
 				<div class="menuTop">
 
 				</div>
@@ -19,12 +19,12 @@
           </ul>
 		</nav><!-- /menu -->
 
-		<div class="main">
+		<div class="pagewrap">
 
 				<header class="header" id="header">
 					<div class="headerTop">
               <div class="u-float--l">
-                  <a href="">Toggle nav</a>
+                  <button class="offcanvas-toggle u-paddingLeft--m u-paddingTop--m u-paddingBottom--m"><i class="material-icons">menu</i></button>
               </div>
               <div class="u-float--r u-paddingRight--m u-paddingTop--s u-paddingBottom--s">
 
@@ -79,7 +79,7 @@
 						<section class="sidebar u-padding-m" id="sidebar" role="complementary">sidebar</section><!-- /sidebar -->
 				</div>
 
-		</div><!-- /main -->
+		</div><!-- /pagewrap -->
 </div><!-- /container -->
 
 {{ partial "footer.html" . }}
