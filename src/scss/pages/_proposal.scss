@@ -19,7 +19,6 @@ ul.menuList {
 }
 
 .menuList__item {
-  padding: 14px 0;
   border-left: solid 4px $color--darker-still;
 
   &:hover, &:active, &.active {
@@ -30,8 +29,9 @@ ul.menuList {
 
 .menuList-link {
   color: $color--white;
+	display: block;
   text-decoration: none;
-  padding: 0 15px;
+  padding: 15px;
 }
 
 a .menuList-link:active, a.menuList-link:hover {

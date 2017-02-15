@@ -41,7 +41,7 @@
                     <div class="u-float--r">
                       <time class="u-font-size--xxs">75 Remaining</time>
                     </div>
-                    <input type="text" placeholder="Short Summary" id="textInput">
+                    <input class="Input Input--default Input--m" type="text" placeholder="Short Summary" id="textInput">
                 </div>
 
                 <div class="u-marginTop-s">
@@ -51,37 +51,22 @@
                     <div class="u-float--r">
                       <time class="u-font-size--xxs">75 Remaining</time>
                     </div>
-                    <texarea placeholder="Start typing...">
+                    <texarea class="Textarea Textarea--default Textarea--m" placeholder="Start typing...">
 
                     </texarea>
                 </div>
 
+
+
 						</section><!-- /.content -->
 
-						<section class="sidebar u-padding-m" id="sidebar" role="complementary">
-              sidebar
-            </section><!-- /.sidebar -->
+        {{ partial "sidebar.html" . }}
 
         </div>
 
 		</div><!-- /.pagewrap -->
 
-    <nav class="offcanvas menu" role="navigation">
-				<div class="menuTop">
-
-				</div>
-          <ul class="menuList">
-            <li class="menuList__item active"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">build</i><span class="menuList-text">Company Information</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">share</i><span class="menuList-text">Pitch and Deal</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">build</i><span class="menuList-text">Team Members</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">description</i><span class="menuList-text">Documents</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">collections</i><span class="menuList-text">Images and Videos</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">content_copy</i><span class="menuList-text">Packages</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">payment</i><span class="menuList-text">Payments</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">trending_up</i><span class="menuList-text">Boosters</span></a></li>
-            <li class="menuList__item"><a class="menuList-link" href="#"><i class="menuList-icon material-icons md-18">publish</i><span class="menuList-text">Publish</span></a></li>
-          </ul>
-		</nav><!-- /.offcanvas menu -->
+    {{ partial "navigation.html" . }}
 
 
 </div><!-- /.container -->
