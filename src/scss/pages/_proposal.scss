@@ -1,7 +1,7 @@
 /* Layout */
 
 .container {
-	height: 100vh;
+	background: #F6F9FB;
 	overflow: hidden;
 }
 
@@ -43,6 +43,10 @@ a .menuList-link:active, a.menuList-link:hover {
 
 .header {
 	background: $color--white;
+	//position: fixed;
+	//left: 180px;
+	//top: 0;
+	//z-index: 9999;
 }
 
 .headerTop {
@@ -57,14 +61,33 @@ a .menuList-link:active, a.menuList-link:hover {
 }
 
 .headerBottom {
+}
+
+/* Progress bar */
+
+.Progress-bar {
+	height: 8px;
+}
+
+.Progress-bar__left {
+	float: left;
 	height: 8px;
 	background: $color--success;
+	width: 60%
+}
+
+.Progress-bar__right {
+	float: right;
+	height: 8px;
+	background: $color-gray-light;
+	width: 40%
 }
 
 
 /* Proposal Form main content area */
 
 .form {
+	//margin-top: 112px;
 	clear: both;
 	overflow: auto;
 }
@@ -72,18 +95,16 @@ a .menuList-link:active, a.menuList-link:hover {
 .content {
 	background: $color--white;
 	float: left;
-	width: 60%;
-  height: 85vh; //fix this little hack
+	width: 50%;
 }
 
 .sidebar {
-	background: #F6F9FB;
 	float: left;
-	width: 40%;
+	width: 50%;
   height: 85vh; //fix this little hack
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 800px) {
 	.content {
 		width: 100%;
 	}
@@ -162,6 +183,10 @@ a .menuList-link:active, a.menuList-link:hover {
 
 	.pagewrap {
 		margin-left: 50px
+	}
+
+	.header {
+		//left: 50px;
 	}
 	.offcanvas{
 		width: 50px;
