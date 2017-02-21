@@ -28,12 +28,7 @@ gulp.task('scss', function () {
 gulp.task('images', function () {
     del(['static/images/**/*'])
     gulp.src('src/images/**/*')
-        .pipe(hash())
         .pipe(gulp.dest('static/images'))
-        //Create a hash map
-        .pipe(hash.manifest('hash.json'))
-        //Put the map in the data directory
-        .pipe(gulp.dest('data/images'))
 });
 
 
