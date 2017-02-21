@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>team-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="--icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="team-white" stroke="#FFFFFF" stroke-width="1.2">
+            <g id="icon" transform="translate(2.000000, 3.000000)">
+                <path d="M11.9922,5.4233 C11.9922,8.0873 9.8322,10.2463 7.1692,10.2463 C4.5052,10.2463 2.3452,8.0873 2.3452,5.4233 C2.3452,2.7593 4.5052,0.6003 7.1692,0.6003 C9.8322,0.6003 11.9922,2.7593 11.9922,5.4233 Z" id="Stroke-1"></path>
+                <path d="M19.7091,8.3764 C19.7091,9.8524 18.5121,11.0494 17.0361,11.0494 C15.5601,11.0494 14.3641,9.8524 14.3641,8.3764 C14.3641,6.9004 15.5601,5.7034 17.0361,5.7034 C18.5121,5.7034 19.7091,6.9004 19.7091,8.3764 Z" id="Stroke-3"></path>
+                <path d="M13.6,18.6 L13.6,16.204 C13.6,13.179 11.125,10.704 8.1,10.704 L6.1,10.704 C3.075,10.704 0.6,13.179 0.6,16.204 L0.6,18.6" id="Stroke-5"></path>
+                <path d="M13.6399,14.7335 C13.6399,13.0455 14.9649,11.6635 16.5849,11.6635 L17.6549,11.6635 C19.2749,11.6635 20.5999,13.0455 20.5999,14.7335 L20.5999,16.6865" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

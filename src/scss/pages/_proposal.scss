@@ -31,7 +31,7 @@ ul.menuList {
   color: $color--white;
 	display: block;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px 15px;
 }
 
 a .menuList-link:active, a.menuList-link:hover {
@@ -182,14 +182,14 @@ a .menuList-link:active, a.menuList-link:hover {
 @media all and (max-width: 600px) {
 
 	.pagewrap {
-		margin-left: 50px
+		margin-left: 60px
 	}
 
 	.header {
 		//left: 50px;
 	}
 	.offcanvas{
-		width: 50px;
+		width: 60px;
 	}
 
 	.offcanvas-hidden{

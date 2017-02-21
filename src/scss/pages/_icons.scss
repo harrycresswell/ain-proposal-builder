@@ -1,0 +1,188 @@
+/* Icon Core Component */
+
+.menuList-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Icon Modifier: Company Info */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--company-info {
+    background: url('../images/ic_company-info-white.png');
+    background-image: url('../images/ic_company-info-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--company-info {
+          background: url('../images/ic_company-info-white@2x.png');
+          background-image: url('../images/ic_company-info-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Pitch */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--pitch {
+    background: url('../images/ic_pitch-white.png');
+    background-image: url('../images/ic_pitch-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--pitch {
+          background: url('../images/ic_pitch-white@2x.png');
+          background-image: url('../images/ic_pitch-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+
+/* Icon Modifier: Team */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--team {
+    background: url('../images/ic_team-white.png');
+    background-image: url('../images/ic_team-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--team {
+          background: url('../images/ic_team-white@2x.png');
+          background-image: url('../images/ic_team-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Documents */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--docs {
+    background: url('../images/ic_docs-white.png');
+    background-image: url('../images/ic_docs-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--docs {
+          background: url('../images/ic_docs-white@2x.png');
+          background-image: url('../images/ic_docs-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Images and Videos */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--images {
+    background: url('../images/ic_images-videos-white.png');
+    background-image: url('../images/ic_images-videos-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--images {
+          background: url('../images/ic_images-videos-white@2x.png');
+          background-image: url('../images/ic_images-videos-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Packages */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--packages {
+    background: url('../images/ic_packages-white.png');
+    background-image: url('../images/ic_packages-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--packages {
+          background: url('../images/ic_packages-white@2x.png');
+          background-image: url('../images/ic_packages-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+
+/* Icon Modifier: Extras */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--extras {
+    background: url('../images/ic_extras-white.png');
+    background-image: url('../images/ic_extras-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--extras {
+          background: url('../images/ic_extras-white@2x.png');
+          background-image: url('../images/ic_extras-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Payments */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--payments {
+    background: url('../images/ic_payments-white.png');
+    background-image: url('../images/ic_payments-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--payments {
+          background: url('../images/ic_payments-white@2x.png');
+          background-image: url('../images/ic_payments-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
+
+/* Icon Modifier: Publish */
+
+// use .SVG version with a .PNG fallback
+.menuList-icon--publish {
+    background: url('../images/ic_publish-white.png');
+    background-image: url('../images/ic_publish-white.svg'), none;
+    background-size: 24px 24px;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .menuList-icon--publish {
+          background: url('../images/ic_publish-white@2x.png');
+          background-image: url('../images/ic_publish-white.svg'), none;
+          display: inline-block;
+          vertical-align: middle;
+          background-size: 24px 24px;
+      }
+    }
