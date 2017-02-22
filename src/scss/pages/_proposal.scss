@@ -43,10 +43,21 @@ a .menuList-link:active, a.menuList-link:hover {
 
 .header {
 	background: $color--white;
-	//position: fixed;
-	//left: 180px;
-	//top: 0;
-	//z-index: 9999;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	right: 0;
+	left: 180px;
+}
+
+@media all and (max-width: 600px) {
+	.header {
+		left: 60px;
+	}
+}
+
+.header--width-full {
+	left: 0px;
 }
 
 .headerTop {
@@ -83,11 +94,18 @@ a .menuList-link:active, a.menuList-link:hover {
 	width: 40%
 }
 
+.Progress-count {
+	color: $color--success;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0.3rem 1.5rem 0 1.5rem;
+}
+
 
 /* Proposal Form main content area */
 
 .form {
-	//margin-top: 112px;
+	margin-top: 112px;
 	clear: both;
 	overflow: auto;
 }
