@@ -241,10 +241,20 @@ a .menuList-link:active, a.menuList-link:hover {
  */
 
 .offcanvas-toggle{
+	display: none;
+	padding: 18px 20px 16px 20px;
   background-color: transparent;
-  border: 0;
+  border-right: solid 1px #e0e6ed;
 
   &:focus{
     outline: none;
   }
+}
+
+.offcanvas-close {
+	padding: 18px 24px 16px 20px;
+	background-color: transparent;
+	color: white;
+	text-align: right;
+	width: 100%;
 }
