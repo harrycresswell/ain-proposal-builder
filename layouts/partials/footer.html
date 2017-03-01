@@ -2,28 +2,6 @@
 <script src="https://use.typekit.net/ooy8rss.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-// When hamburger toggle is clicked
-$('.offcanvas-toggle').on('click', function() {
-  // Hide offcanvas menu
-  $('.container').toggleClass('offcanvas-hidden');
-  // Make header full width
-  $('.header').toggleClass('header--width-full');
-  // Hide toggle
-  $('.offcanvas-toggle').hide();
-});
-
-// When offcanvas close icon is clicked
-$('.offcanvas-close').on('click', function() {
-  // Hide off canvas menu
-  $('.container').toggleClass('offcanvas-hidden');
-  // Make header full width
-  $('.header').toggleClass('header--width-full');
-  // Show toggle
-  $('.offcanvas-toggle').show();
-});
-
-</script>
-
+<script src="{{ .Site.BaseURL }}js/app-f17cd2d3.js"></script>
 </body>
 <html>
