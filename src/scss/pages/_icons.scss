@@ -5,6 +5,59 @@
   height: 24px;
 }
 
+/* Icon Core Component */
+
+.action-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Icon Modifier: Close */
+
+// use .SVG version with a .PNG fallback
+.action-icon--close {
+    background: url('../images/ic_close.png');
+    background-image: url('../images/ic_close.svg'), none;
+    background-size: 24px 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .action-icon--close {
+          background: url('../images/ic_close@2x.png');
+          background-image: url('../images/ic_close.svg'), none;
+          background-size: 24px 24px;
+          display: inline-block;
+          vertical-align: middle;
+      }
+    }
+
+/* Icon Modifier: Close */
+
+// use .SVG version with a .PNG fallback
+.action-icon--hamburger {
+    background: url('../images/ic_hamburger.png');
+    background-image: url('../images/ic_hamburger.svg'), none;
+    background-size: 24px 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    // For retina screens use @2x icon
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .action-icon--hamburger {
+          background: url('../images/ic_hamburger@2x.png');
+          background-image: url('../images/ic_hamburger.svg'), none;
+          background-size: 24px 24px;
+          display: inline-block;
+          vertical-align: middle;
+      }
+    }
+
+
+
 /* Icon Modifier: Company Info */
 
 // use .SVG version with a .PNG fallback
